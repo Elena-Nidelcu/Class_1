@@ -1,7 +1,7 @@
 public class Movie {
 
-    String title = "";
-    String director = "";
+    String title = "Inglourious Basterds";
+    String director = "Quentin Tarantino";
     int rel_year = 2000;
     int run_time = 0;
     int buget = 0;
@@ -16,6 +16,10 @@ public class Movie {
     public static void add_to_list() {
         want_to_watch = true;
     }
+
+    public void printBuget() {
+        System.out.println("Buget: " + buget);
+        }
 
 
 }
