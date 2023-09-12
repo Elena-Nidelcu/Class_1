@@ -2,10 +2,10 @@ public class Movie {
 
     String title = "Inglourious Basterds";
     String director = "Quentin Tarantino";
-    int rel_year = 2000;
-    int run_time = 0;
+    int releaseYear = 2009;
+    int runTime = 0;
     int buget = 0;
-    int box_office = 0;
+    int boxOffice = 0;
 
     static boolean watched = false;
     static boolean want_to_watch = false;
@@ -21,5 +21,8 @@ public class Movie {
         System.out.println("Buget: " + buget);
         }
 
+    public static void main(String[] args) {
+        Movie movie = new Movie();
+        movie.printBuget();
 
 }
