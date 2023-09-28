@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<intellisenseDB>
+    <intellisenseTriggers calltipStart="(" calltipEnd=")" accessorToken="&lt;"/>
+    <intellisenseItems>
+        <intellisenseItem
+            name="case"
+            mouseOverText="#case (sensitive | insensitive)\n\nSet case sensitive/insensitive processing."
+            type="0">
+        </intellisenseItem>
+
+        <intellisenseItem
+            name="delimiter"
+            mouseOverText="#delimiter Value: String\n\n."
+            type="0">
+        </intellisenseItem>
+
+        <intellisenseItem
+            name="whitespace"
+            mouseOverText="#whitespace Value: String\n\n."
+            type="0">
+        </intellisenseItem>
+    </intellisenseItems>
+</intellisenseDB>

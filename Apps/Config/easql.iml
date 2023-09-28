@@ -1,0 +1,1360 @@
+<?xml version="1.0"?>
+<intellisenseDB>
+    <intellisenseTriggers calltipStart="(" calltipEnd=")" accessorToken="."/>
+    <intellisenseItems>
+        <!-- Attribute definitions -->
+        <intellisenseItem 
+            name="ADD" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="ALTER" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="AND" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="AS" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="ASC" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="BETWEEN" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="COLUMN" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="CREATE" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="DATABASE" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="DELETE" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="DESC" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="DROP" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="FROM" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="IN" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="INDEX" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="INNER JOIN" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="INSERT INTO" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="LEFT JOIN" 
+            type="3"/>
+                
+        <intellisenseItem 
+            name="LIKE" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="NOT" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="ON" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="OR" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="ORDER BY" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="RIGHT JOIN" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="SELECT" 
+            type="3"/>
+            
+        <intellisenseItem 
+            name="SELECT DISTINCT" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="SET" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="TABLE" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="TRUNCATE" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="UNION" 
+            type="3"/>
+            
+        <intellisenseItem 
+            name="UNION ALL" 
+            type="3"/>
+            
+        <intellisenseItem 
+            name="UNIQUE INDEX" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="UPDATE" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="VALUES" 
+            type="3"/>
+            
+        <intellisenseItem 
+            name="WHERE" 
+            type="3"/>
+            
+        <!-- Function definitions-->
+        <intellisenseItem
+            name="AVG" 
+            mouseOverText="Returns the average value of a column." 
+            type="2">
+            <calltips>
+                <calltip text="AVG(column)"/>
+            </calltips>
+        </intellisenseItem>
+
+        <intellisenseItem
+            name="COUNT" 
+            mouseOverText="Returns the number of non NULL rows of a column." 
+            type="2">
+            <calltips>
+                <calltip text="COUNT(column)"/>
+            </calltips>
+        </intellisenseItem>        
+
+        <intellisenseItem
+            name="FIRST" 
+            mouseOverText="Returns the value of the first record in a column." 
+            type="2">
+            <calltips>
+                <calltip text="FIRST(column)"/>
+            </calltips>
+        </intellisenseItem> 
+
+        <intellisenseItem
+            name="LAST" 
+            mouseOverText="Returns the value of the last record in a column." 
+            type="2">
+            <calltips>
+                <calltip text="LAST(column)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="MAX" 
+            mouseOverText="Returns the highest value of a column." 
+            type="2">
+            <calltips>
+                <calltip text="MAX(column)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="MIN" 
+            mouseOverText="Returns the lowest value of a column." 
+            type="2">
+            <calltips>
+                <calltip text="MIN(column)"/>
+            </calltips>
+        </intellisenseItem> 
+
+        <intellisenseItem
+            name="SUM" 
+            mouseOverText="Returns the aggregate sum of a column." 
+            type="2">
+            <calltips>
+                <calltip text="SUM(column)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <!-- EA Table Definitions -->
+        <intellisenseItem name="t_attribute" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Scope" type="1"/>
+				<intellisenseItem name="Stereotype" type="1"/>
+				<intellisenseItem name="Containment" type="1"/>
+				<intellisenseItem name="IsStatic" type="1"/>
+				<intellisenseItem name="IsCollection" type="1"/>
+				<intellisenseItem name="IsOrdered" type="1"/>
+				<intellisenseItem name="AllowDuplicates" type="1"/>
+				<intellisenseItem name="LowerBound" type="1"/>
+				<intellisenseItem name="UpperBound" type="1"/>
+				<intellisenseItem name="Container" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="Derived" type="1"/>
+				<intellisenseItem name="ID" type="1"/>
+				<intellisenseItem name="Pos" type="1"/>
+				<intellisenseItem name="GenOption" type="1"/>
+				<intellisenseItem name="Length" type="1"/>
+				<intellisenseItem name="Precision" type="1"/>
+				<intellisenseItem name="Scale" type="1"/>
+				<intellisenseItem name="Const" type="1"/>
+				<intellisenseItem name="Style" type="1"/>
+				<intellisenseItem name="Classifier" type="1"/>
+				<intellisenseItem name="Default" type="1"/>
+				<intellisenseItem name="Type" type="1"/>
+				<intellisenseItem name="ea_guid" type="1"/>
+				<intellisenseItem name="StyleEx" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_attributeconstraints" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="Constraint" type="1"/>
+				<intellisenseItem name="AttName" type="1"/>
+				<intellisenseItem name="Type" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="ID" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_attributetag" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="PropertyID" type="1"/>
+				<intellisenseItem name="ElementID" type="1"/>
+				<intellisenseItem name="Property" type="1"/>
+				<intellisenseItem name="VALUE" type="1"/>
+				<intellisenseItem name="NOTES" type="1"/>
+				<intellisenseItem name="ea_guid" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_authors" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="AuthorName" type="1"/>
+				<intellisenseItem name="Roles" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_cardinality" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Cardinality" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_category" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="CategoryID" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Type" type="1"/>
+				<intellisenseItem name="NOTES" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_clients" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Organisation" type="1"/>
+				<intellisenseItem name="Phone1" type="1"/>
+				<intellisenseItem name="Phone2" type="1"/>
+				<intellisenseItem name="Mobile" type="1"/>
+				<intellisenseItem name="Fax" type="1"/>
+				<intellisenseItem name="Email" type="1"/>
+				<intellisenseItem name="Roles" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_complexitytypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Complexity" type="1"/>
+				<intellisenseItem name="NumericWeight" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_connector" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Connector_ID" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Direction" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="Connector_Type" type="1"/>
+				<intellisenseItem name="SubType" type="1"/>
+				<intellisenseItem name="SourceCard" type="1"/>
+				<intellisenseItem name="SourceAccess" type="1"/>
+				<intellisenseItem name="SourceElement" type="1"/>
+				<intellisenseItem name="DestCard" type="1"/>
+				<intellisenseItem name="DestAccess" type="1"/>
+				<intellisenseItem name="DestElement" type="1"/>
+				<intellisenseItem name="SourceRole" type="1"/>
+				<intellisenseItem name="SourceRoleType" type="1"/>
+				<intellisenseItem name="SourceRoleNote" type="1"/>
+				<intellisenseItem name="SourceContainment" type="1"/>
+				<intellisenseItem name="SourceIsAggregate" type="1"/>
+				<intellisenseItem name="SourceIsOrdered" type="1"/>
+				<intellisenseItem name="SourceQualifier" type="1"/>
+				<intellisenseItem name="DestRole" type="1"/>
+				<intellisenseItem name="DestRoleType" type="1"/>
+				<intellisenseItem name="DestRoleNote" type="1"/>
+				<intellisenseItem name="DestContainment" type="1"/>
+				<intellisenseItem name="DestIsAggregate" type="1"/>
+				<intellisenseItem name="DestIsOrdered" type="1"/>
+				<intellisenseItem name="DestQualifier" type="1"/>
+				<intellisenseItem name="Start_Object_ID" type="1"/>
+				<intellisenseItem name="End_Object_ID" type="1"/>
+				<intellisenseItem name="Top_Start_Label" type="1"/>
+				<intellisenseItem name="Top_Mid_Label" type="1"/>
+				<intellisenseItem name="Top_End_Label" type="1"/>
+				<intellisenseItem name="Btm_Start_Label" type="1"/>
+				<intellisenseItem name="Btm_Mid_Label" type="1"/>
+				<intellisenseItem name="Btm_End_Label" type="1"/>
+				<intellisenseItem name="Start_Edge" type="1"/>
+				<intellisenseItem name="End_Edge" type="1"/>
+				<intellisenseItem name="PtStartX" type="1"/>
+				<intellisenseItem name="PtStartY" type="1"/>
+				<intellisenseItem name="PtEndX" type="1"/>
+				<intellisenseItem name="PtEndY" type="1"/>
+				<intellisenseItem name="SeqNo" type="1"/>
+				<intellisenseItem name="HeadStyle" type="1"/>
+				<intellisenseItem name="LineStyle" type="1"/>
+				<intellisenseItem name="RouteStyle" type="1"/>
+				<intellisenseItem name="IsBold" type="1"/>
+				<intellisenseItem name="LineColor" type="1"/>
+				<intellisenseItem name="Stereotype" type="1"/>
+				<intellisenseItem name="VirtualInheritance" type="1"/>
+				<intellisenseItem name="LinkAccess" type="1"/>
+				<intellisenseItem name="PDATA1" type="1"/>
+				<intellisenseItem name="PDATA2" type="1"/>
+				<intellisenseItem name="PDATA3" type="1"/>
+				<intellisenseItem name="PDATA4" type="1"/>
+				<intellisenseItem name="PDATA5" type="1"/>
+				<intellisenseItem name="DiagramID" type="1"/>
+				<intellisenseItem name="ea_guid" type="1"/>
+				<intellisenseItem name="SourceConstraint" type="1"/>
+				<intellisenseItem name="DestConstraint" type="1"/>
+				<intellisenseItem name="SourceIsNavigable" type="1"/>
+				<intellisenseItem name="DestIsNavigable" type="1"/>
+				<intellisenseItem name="IsRoot" type="1"/>
+				<intellisenseItem name="IsLeaf" type="1"/>
+				<intellisenseItem name="IsSpec" type="1"/>
+				<intellisenseItem name="SourceChangeable" type="1"/>
+				<intellisenseItem name="DestChangeable" type="1"/>
+				<intellisenseItem name="SourceTS" type="1"/>
+				<intellisenseItem name="DestTS" type="1"/>
+				<intellisenseItem name="StateFlags" type="1"/>
+				<intellisenseItem name="ActionFlags" type="1"/>
+				<intellisenseItem name="IsSignal" type="1"/>
+				<intellisenseItem name="IsStimulus" type="1"/>
+				<intellisenseItem name="DispatchAction" type="1"/>
+				<intellisenseItem name="Target2" type="1"/>
+				<intellisenseItem name="StyleEx" type="1"/>
+				<intellisenseItem name="SourceStereotype" type="1"/>
+				<intellisenseItem name="DestStereotype" type="1"/>
+				<intellisenseItem name="SourceStyle" type="1"/>
+				<intellisenseItem name="DestStyle" type="1"/>
+				<intellisenseItem name="EventFlags" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_connectorconstraint" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="ConnectorID" type="1"/>
+				<intellisenseItem name="Constraint" type="1"/>
+				<intellisenseItem name="ConstraintType" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_connectortag" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="PropertyID" type="1"/>
+				<intellisenseItem name="ElementID" type="1"/>
+				<intellisenseItem name="Property" type="1"/>
+				<intellisenseItem name="VALUE" type="1"/>
+				<intellisenseItem name="NOTES" type="1"/>
+				<intellisenseItem name="ea_guid" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_connectortypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Connector_Type" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_constants" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="ConstantName" type="1"/>
+				<intellisenseItem name="ConstantValue" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_constrainttypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Constraint" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_datatypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Type" type="1"/>
+				<intellisenseItem name="ProductName" type="1"/>
+				<intellisenseItem name="DataType" type="1"/>
+				<intellisenseItem name="Size" type="1"/>
+				<intellisenseItem name="MaxLen" type="1"/>
+				<intellisenseItem name="MaxPrec" type="1"/>
+				<intellisenseItem name="MaxScale" type="1"/>
+				<intellisenseItem name="DefaultLen" type="1"/>
+				<intellisenseItem name="DefaultPrec" type="1"/>
+				<intellisenseItem name="DefaultScale" type="1"/>
+				<intellisenseItem name="User" type="1"/>
+				<intellisenseItem name="PDATA1" type="1"/>
+				<intellisenseItem name="PDATA2" type="1"/>
+				<intellisenseItem name="PDATA3" type="1"/>
+				<intellisenseItem name="PDATA4" type="1"/>
+				<intellisenseItem name="HasLength" type="1"/>
+				<intellisenseItem name="GenericType" type="1"/>
+				<intellisenseItem name="DatatypeID" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_diagram" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Diagram_ID" type="1"/>
+				<intellisenseItem name="Package_ID" type="1"/>
+				<intellisenseItem name="ParentID" type="1"/>
+				<intellisenseItem name="Diagram_Type" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Version" type="1"/>
+				<intellisenseItem name="Author" type="1"/>
+				<intellisenseItem name="ShowDetails" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="Stereotype" type="1"/>
+				<intellisenseItem name="AttPub" type="1"/>
+				<intellisenseItem name="AttPri" type="1"/>
+				<intellisenseItem name="AttPro" type="1"/>
+				<intellisenseItem name="Orientation" type="1"/>
+				<intellisenseItem name="cx" type="1"/>
+				<intellisenseItem name="cy" type="1"/>
+				<intellisenseItem name="Scale" type="1"/>
+				<intellisenseItem name="CreatedDate" type="1"/>
+				<intellisenseItem name="ModifiedDate" type="1"/>
+				<intellisenseItem name="HTMLPath" type="1"/>
+				<intellisenseItem name="ShowForeign" type="1"/>
+				<intellisenseItem name="ShowBorder" type="1"/>
+				<intellisenseItem name="ShowPackageContents" type="1"/>
+				<intellisenseItem name="PDATA" type="1"/>
+				<intellisenseItem name="Locked" type="1"/>
+				<intellisenseItem name="ea_guid" type="1"/>
+				<intellisenseItem name="TPos" type="1"/>
+				<intellisenseItem name="Swimlanes" type="1"/>
+				<intellisenseItem name="StyleEx" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_diagramlinks" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="DiagramID" type="1"/>
+				<intellisenseItem name="ConnectorID" type="1"/>
+				<intellisenseItem name="Geometry" type="1"/>
+				<intellisenseItem name="Style" type="1"/>
+				<intellisenseItem name="Hidden" type="1"/>
+				<intellisenseItem name="Path" type="1"/>
+				<intellisenseItem name="Instance_ID" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_diagramobjects" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Diagram_ID" type="1"/>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="RectTop" type="1"/>
+				<intellisenseItem name="RectLeft" type="1"/>
+				<intellisenseItem name="RectRight" type="1"/>
+				<intellisenseItem name="RectBottom" type="1"/>
+				<intellisenseItem name="Sequence" type="1"/>
+				<intellisenseItem name="ObjectStyle" type="1"/>
+				<intellisenseItem name="Instance_ID" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_diagramtypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Diagram_Type" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Package_ID" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_document" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="DocID" type="1"/>
+				<intellisenseItem name="DocName" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="Style" type="1"/>
+				<intellisenseItem name="ElementID" type="1"/>
+				<intellisenseItem name="ElementType" type="1"/>
+				<intellisenseItem name="StrContent" type="1"/>
+				<intellisenseItem name="BinContent" type="1"/>
+				<intellisenseItem name="DocType" type="1"/>
+				<intellisenseItem name="Author" type="1"/>
+				<intellisenseItem name="Version" type="1"/>
+				<intellisenseItem name="IsActive" type="1"/>
+				<intellisenseItem name="Sequence" type="1"/>
+				<intellisenseItem name="DocDate" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_ecf" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="ECFID" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="Weight" type="1"/>
+				<intellisenseItem name="Value" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_efforttypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="EffortType" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="NumericWeight" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_files" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="FileID" type="1"/>
+				<intellisenseItem name="AppliesTo" type="1"/>
+				<intellisenseItem name="Category" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="File" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="FileDate" type="1"/>
+				<intellisenseItem name="FileSize" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_genopt" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="AppliesTo" type="1"/>
+				<intellisenseItem name="Option" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_glossary" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Term" type="1"/>
+				<intellisenseItem name="Type" type="1"/>
+				<intellisenseItem name="Meaning" type="1"/>
+				<intellisenseItem name="GlossaryID" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_html" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Type" type="1"/>
+				<intellisenseItem name="Template" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_image" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="ImageID" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Type" type="1"/>
+				<intellisenseItem name="Image" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_implement" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Type" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_issues" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Issue" type="1"/>
+				<intellisenseItem name="IssueDate" type="1"/>
+				<intellisenseItem name="Owner" type="1"/>
+				<intellisenseItem name="Status" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="Resolver" type="1"/>
+				<intellisenseItem name="DateResolved" type="1"/>
+				<intellisenseItem name="Resolution" type="1"/>
+				<intellisenseItem name="IssueID" type="1"/>
+				<intellisenseItem name="Category" type="1"/>
+				<intellisenseItem name="Priority" type="1"/>
+				<intellisenseItem name="Severity" type="1"/>
+				<intellisenseItem name="IssueType" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_lists" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="ListID" type="1"/>
+				<intellisenseItem name="Category" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="NVal" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_mainttypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="MaintType" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="NumericWeight" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_method" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Scope" type="1"/>
+				<intellisenseItem name="Type" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_metrictypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Metric" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="NumericWeight" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_object" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="Object_Type" type="1"/>
+				<intellisenseItem name="Diagram_ID" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Alias" type="1"/>
+				<intellisenseItem name="Author" type="1"/>
+				<intellisenseItem name="Version" type="1"/>
+				<intellisenseItem name="Note" type="1"/>
+				<intellisenseItem name="Package_ID" type="1"/>
+				<intellisenseItem name="Stereotype" type="1"/>
+				<intellisenseItem name="NType" type="1"/>
+				<intellisenseItem name="Complexity" type="1"/>
+				<intellisenseItem name="Effort" type="1"/>
+				<intellisenseItem name="Style" type="1"/>
+				<intellisenseItem name="Backcolor" type="1"/>
+				<intellisenseItem name="BorderStyle" type="1"/>
+				<intellisenseItem name="BorderWidth" type="1"/>
+				<intellisenseItem name="Fontcolor" type="1"/>
+				<intellisenseItem name="Bordercolor" type="1"/>
+				<intellisenseItem name="CreatedDate" type="1"/>
+				<intellisenseItem name="ModifiedDate" type="1"/>
+				<intellisenseItem name="Status" type="1"/>
+				<intellisenseItem name="Abstract" type="1"/>
+				<intellisenseItem name="Tagged" type="1"/>
+				<intellisenseItem name="PDATA1" type="1"/>
+				<intellisenseItem name="PDATA2" type="1"/>
+				<intellisenseItem name="PDATA3" type="1"/>
+				<intellisenseItem name="PDATA4" type="1"/>
+				<intellisenseItem name="PDATA5" type="1"/>
+				<intellisenseItem name="Concurrency" type="1"/>
+				<intellisenseItem name="Visibility" type="1"/>
+				<intellisenseItem name="Persistence" type="1"/>
+				<intellisenseItem name="Cardinality" type="1"/>
+				<intellisenseItem name="GenType" type="1"/>
+				<intellisenseItem name="GenFile" type="1"/>
+				<intellisenseItem name="Header1" type="1"/>
+				<intellisenseItem name="Header2" type="1"/>
+				<intellisenseItem name="Phase" type="1"/>
+				<intellisenseItem name="Scope" type="1"/>
+				<intellisenseItem name="GenOption" type="1"/>
+				<intellisenseItem name="GenLinks" type="1"/>
+				<intellisenseItem name="Classifier" type="1"/>
+				<intellisenseItem name="ea_guid" type="1"/>
+				<intellisenseItem name="ParentID" type="1"/>
+				<intellisenseItem name="RunState" type="1"/>
+				<intellisenseItem name="Classifier_guid" type="1"/>
+				<intellisenseItem name="TPos" type="1"/>
+				<intellisenseItem name="IsRoot" type="1"/>
+				<intellisenseItem name="IsLeaf" type="1"/>
+				<intellisenseItem name="IsSpec" type="1"/>
+				<intellisenseItem name="IsActive" type="1"/>
+				<intellisenseItem name="StateFlags" type="1"/>
+				<intellisenseItem name="PackageFlags" type="1"/>
+				<intellisenseItem name="Multiplicity" type="1"/>
+				<intellisenseItem name="StyleEx" type="1"/>
+				<intellisenseItem name="EventFlags" type="1"/>
+				<intellisenseItem name="ActionFlags" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_objectconstraint" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="Constraint" type="1"/>
+				<intellisenseItem name="ConstraintType" type="1"/>
+				<intellisenseItem name="Weight" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="Status" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_objecteffort" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="Effort" type="1"/>
+				<intellisenseItem name="EffortType" type="1"/>
+				<intellisenseItem name="EValue" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_objectfiles" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="FileName" type="1"/>
+				<intellisenseItem name="Type" type="1"/>
+				<intellisenseItem name="Note" type="1"/>
+				<intellisenseItem name="FileSize" type="1"/>
+				<intellisenseItem name="FileDate" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_objectmetrics" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="Metric" type="1"/>
+				<intellisenseItem name="MetricType" type="1"/>
+				<intellisenseItem name="EValue" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_objectproblems" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="Problem" type="1"/>
+				<intellisenseItem name="ProblemType" type="1"/>
+				<intellisenseItem name="DateReported" type="1"/>
+				<intellisenseItem name="Status" type="1"/>
+				<intellisenseItem name="ProblemNotes" type="1"/>
+				<intellisenseItem name="ReportedBy" type="1"/>
+				<intellisenseItem name="ResolvedBy" type="1"/>
+				<intellisenseItem name="DateResolved" type="1"/>
+				<intellisenseItem name="Version" type="1"/>
+				<intellisenseItem name="ResolverNotes" type="1"/>
+				<intellisenseItem name="Priority" type="1"/>
+				<intellisenseItem name="Severity" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_objectproperties" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="PropertyID" type="1"/>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="Property" type="1"/>
+				<intellisenseItem name="Value" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="ea_guid" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_objectrequires" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="ReqID" type="1"/>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="Requirement" type="1"/>
+				<intellisenseItem name="ReqType" type="1"/>
+				<intellisenseItem name="Status" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="Stability" type="1"/>
+				<intellisenseItem name="Difficulty" type="1"/>
+				<intellisenseItem name="Priority" type="1"/>
+				<intellisenseItem name="LastUpdate" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_objectresource" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="Resource" type="1"/>
+				<intellisenseItem name="Role" type="1"/>
+				<intellisenseItem name="Time" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="PercentComplete" type="1"/>
+				<intellisenseItem name="DateStart" type="1"/>
+				<intellisenseItem name="DateEnd" type="1"/>
+				<intellisenseItem name="History" type="1"/>
+				<intellisenseItem name="ExpectedHours" type="1"/>
+				<intellisenseItem name="ActualHours" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_objectrisks" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="Risk" type="1"/>
+				<intellisenseItem name="RiskType" type="1"/>
+				<intellisenseItem name="EValue" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_objectscenarios" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="Scenario" type="1"/>
+				<intellisenseItem name="ScenarioType" type="1"/>
+				<intellisenseItem name="EValue" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="XMLContent" type="1"/>
+				<intellisenseItem name="ea_guid" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_objecttests" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="Test" type="1"/>
+				<intellisenseItem name="TestClass" type="1"/>
+				<intellisenseItem name="TestType" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="InputData" type="1"/>
+				<intellisenseItem name="AcceptanceCriteria" type="1"/>
+				<intellisenseItem name="Status" type="1"/>
+				<intellisenseItem name="DateRun" type="1"/>
+				<intellisenseItem name="Results" type="1"/>
+				<intellisenseItem name="RunBy" type="1"/>
+				<intellisenseItem name="CheckBy" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_objecttrx" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="TRX" type="1"/>
+				<intellisenseItem name="TRXType" type="1"/>
+				<intellisenseItem name="Weight" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_objecttypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Object_Type" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="DesignObject" type="1"/>
+				<intellisenseItem name="ImageID" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_ocf" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="ObjectType" type="1"/>
+				<intellisenseItem name="ComplexityWeight" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_operation" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="OperationID" type="1"/>
+				<intellisenseItem name="Object_ID" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Scope" type="1"/>
+				<intellisenseItem name="Type" type="1"/>
+				<intellisenseItem name="ReturnArray" type="1"/>
+				<intellisenseItem name="Stereotype" type="1"/>
+				<intellisenseItem name="IsStatic" type="1"/>
+				<intellisenseItem name="Concurrency" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="Behaviour" type="1"/>
+				<intellisenseItem name="Abstract" type="1"/>
+				<intellisenseItem name="GenOption" type="1"/>
+				<intellisenseItem name="Synchronized" type="1"/>
+				<intellisenseItem name="Pos" type="1"/>
+				<intellisenseItem name="Const" type="1"/>
+				<intellisenseItem name="Style" type="1"/>
+				<intellisenseItem name="Pure" type="1"/>
+				<intellisenseItem name="Throws" type="1"/>
+				<intellisenseItem name="Classifier" type="1"/>
+				<intellisenseItem name="Code" type="1"/>
+				<intellisenseItem name="IsRoot" type="1"/>
+				<intellisenseItem name="IsLeaf" type="1"/>
+				<intellisenseItem name="IsQuery" type="1"/>
+				<intellisenseItem name="StateFlags" type="1"/>
+				<intellisenseItem name="ea_guid" type="1"/>
+				<intellisenseItem name="StyleEx" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_operationparams" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="OperationID" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Type" type="1"/>
+				<intellisenseItem name="Default" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="Pos" type="1"/>
+				<intellisenseItem name="Const" type="1"/>
+				<intellisenseItem name="Style" type="1"/>
+				<intellisenseItem name="Kind" type="1"/>
+				<intellisenseItem name="Classifier" type="1"/>
+				<intellisenseItem name="ea_guid" type="1"/>
+				<intellisenseItem name="StyleEx" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_operationposts" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="OperationID" type="1"/>
+				<intellisenseItem name="PostCondition" type="1"/>
+				<intellisenseItem name="Type" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_operationpres" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="OperationID" type="1"/>
+				<intellisenseItem name="PreCondition" type="1"/>
+				<intellisenseItem name="Type" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_operationtag" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="PropertyID" type="1"/>
+				<intellisenseItem name="ElementID" type="1"/>
+				<intellisenseItem name="Property" type="1"/>
+				<intellisenseItem name="VALUE" type="1"/>
+				<intellisenseItem name="NOTES" type="1"/>
+				<intellisenseItem name="ea_guid" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_package" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Package_ID" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Parent_ID" type="1"/>
+				<intellisenseItem name="CreatedDate" type="1"/>
+				<intellisenseItem name="ModifiedDate" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="ea_guid" type="1"/>
+				<intellisenseItem name="XMLPath" type="1"/>
+				<intellisenseItem name="IsControlled" type="1"/>
+				<intellisenseItem name="LastLoadDate" type="1"/>
+				<intellisenseItem name="LastSaveDate" type="1"/>
+				<intellisenseItem name="Version" type="1"/>
+				<intellisenseItem name="Protected" type="1"/>
+				<intellisenseItem name="PkgOwner" type="1"/>
+				<intellisenseItem name="UMLVersion" type="1"/>
+				<intellisenseItem name="UseDTD" type="1"/>
+				<intellisenseItem name="LogXML" type="1"/>
+				<intellisenseItem name="CodePath" type="1"/>
+				<intellisenseItem name="Namespace" type="1"/>
+				<intellisenseItem name="TPos" type="1"/>
+				<intellisenseItem name="PackageFlags" type="1"/>
+				<intellisenseItem name="BatchSave" type="1"/>
+				<intellisenseItem name="BatchLoad" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_palette" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="PaletteID" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Type" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_paletteitem" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="PaletteID" type="1"/>
+				<intellisenseItem name="ItemID" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_phase" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="PhaseID" type="1"/>
+				<intellisenseItem name="PhaseName" type="1"/>
+				<intellisenseItem name="PhaseNotes" type="1"/>
+				<intellisenseItem name="PhaseStyle" type="1"/>
+				<intellisenseItem name="StartDate" type="1"/>
+				<intellisenseItem name="EndDate" type="1"/>
+				<intellisenseItem name="PhaseContent" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_primitives" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Datatype" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_problemtypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="ProblemType" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="NumericWeight" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_projectroles" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Role" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_propertytypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Property" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_requiretypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Requirement" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="NumericWeight" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_resources" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Organisation" type="1"/>
+				<intellisenseItem name="Phone1" type="1"/>
+				<intellisenseItem name="Phone2" type="1"/>
+				<intellisenseItem name="Mobile" type="1"/>
+				<intellisenseItem name="Fax" type="1"/>
+				<intellisenseItem name="Email" type="1"/>
+				<intellisenseItem name="Roles" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_risktypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Risk" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="NumericWeight" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_roleconstraint" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="ConnectorID" type="1"/>
+				<intellisenseItem name="Constraint" type="1"/>
+				<intellisenseItem name="ConnectorEnd" type="1"/>
+				<intellisenseItem name="ConstraintType" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_rtf" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Type" type="1"/>
+				<intellisenseItem name="Template" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_rtfreport" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="TemplateID" type="1"/>
+				<intellisenseItem name="RootPackage" type="1"/>
+				<intellisenseItem name="Filename" type="1"/>
+				<intellisenseItem name="Details" type="1"/>
+				<intellisenseItem name="ProcessChildren" type="1"/>
+				<intellisenseItem name="ShowDiagrams" type="1"/>
+				<intellisenseItem name="Heading" type="1"/>
+				<intellisenseItem name="Requirements" type="1"/>
+				<intellisenseItem name="Associations" type="1"/>
+				<intellisenseItem name="Scenarios" type="1"/>
+				<intellisenseItem name="ChildDiagrams" type="1"/>
+				<intellisenseItem name="Attributes" type="1"/>
+				<intellisenseItem name="Methods" type="1"/>
+				<intellisenseItem name="ImageType" type="1"/>
+				<intellisenseItem name="Paging" type="1"/>
+				<intellisenseItem name="Intro" type="1"/>
+				<intellisenseItem name="Resources" type="1"/>
+				<intellisenseItem name="Constraints" type="1"/>
+				<intellisenseItem name="Tagged" type="1"/>
+				<intellisenseItem name="ShowTag" type="1"/>
+				<intellisenseItem name="ShowAlias" type="1"/>
+				<intellisenseItem name="PDATA1" type="1"/>
+				<intellisenseItem name="PDATA2" type="1"/>
+				<intellisenseItem name="PDATA3" type="1"/>
+				<intellisenseItem name="PDATA4" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_rules" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="RuleID" type="1"/>
+				<intellisenseItem name="RuleName" type="1"/>
+				<intellisenseItem name="RuleType" type="1"/>
+				<intellisenseItem name="RuleActive" type="1"/>
+				<intellisenseItem name="ErrorMsg" type="1"/>
+				<intellisenseItem name="Flags" type="1"/>
+				<intellisenseItem name="RuleOCL" type="1"/>
+				<intellisenseItem name="RuleXML" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_scenariotypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="ScenarioType" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="NumericWeight" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_script" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="ScriptID" type="1"/>
+				<intellisenseItem name="ScriptCategory" type="1"/>
+				<intellisenseItem name="ScriptName" type="1"/>
+				<intellisenseItem name="ScriptAuthor" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="Script" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_secgroup" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="GroupID" type="1"/>
+				<intellisenseItem name="GroupName" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_secgrouppermission" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="GroupID" type="1"/>
+				<intellisenseItem name="PermissionID" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_seclocks" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="UserID" type="1"/>
+				<intellisenseItem name="GroupID" type="1"/>
+				<intellisenseItem name="EntityType" type="1"/>
+				<intellisenseItem name="EntityID" type="1"/>
+				<intellisenseItem name="Timestamp" type="1"/>
+				<intellisenseItem name="LockType" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_secpermission" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="PermissionID" type="1"/>
+				<intellisenseItem name="PermissionName" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_secpolicies" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Property" type="1"/>
+				<intellisenseItem name="Value" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_secuser" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="UserID" type="1"/>
+				<intellisenseItem name="UserLogin" type="1"/>
+				<intellisenseItem name="FirstName" type="1"/>
+				<intellisenseItem name="Surname" type="1"/>
+				<intellisenseItem name="Department" type="1"/>
+				<intellisenseItem name="Password" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_secusergroup" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="UserID" type="1"/>
+				<intellisenseItem name="GroupID" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_secuserpermission" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="UserID" type="1"/>
+				<intellisenseItem name="PermissionID" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_snapshot" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="SnapshotID" type="1"/>
+				<intellisenseItem name="SeriesID" type="1"/>
+				<intellisenseItem name="Position" type="1"/>
+				<intellisenseItem name="SnapshotName" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="Style" type="1"/>
+				<intellisenseItem name="ElementID" type="1"/>
+				<intellisenseItem name="ElementType" type="1"/>
+				<intellisenseItem name="StrContent" type="1"/>
+				<intellisenseItem name="BinContent1" type="1"/>
+				<intellisenseItem name="BinContent2" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_statustypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Status" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_stereotypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Stereotype" type="1"/>
+				<intellisenseItem name="AppliesTo" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="MFEnabled" type="1"/>
+				<intellisenseItem name="MFPath" type="1"/>
+				<intellisenseItem name="Metafile" type="1"/>
+				<intellisenseItem name="Style" type="1"/>
+				<intellisenseItem name="ea_guid" type="1"/>
+				<intellisenseItem name="VisualType" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_taggedvalue" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="PropertyID" type="1"/>
+				<intellisenseItem name="ElementID" type="1"/>
+				<intellisenseItem name="BaseClass" type="1"/>
+				<intellisenseItem name="TagValue" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_tasks" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="TaskID" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="TaskType" type="1"/>
+				<intellisenseItem name="NOTES" type="1"/>
+				<intellisenseItem name="Priority" type="1"/>
+				<intellisenseItem name="Status" type="1"/>
+				<intellisenseItem name="Owner" type="1"/>
+				<intellisenseItem name="StartDate" type="1"/>
+				<intellisenseItem name="EndDate" type="1"/>
+				<intellisenseItem name="Phase" type="1"/>
+				<intellisenseItem name="History" type="1"/>
+				<intellisenseItem name="Percent" type="1"/>
+				<intellisenseItem name="TotalTime" type="1"/>
+				<intellisenseItem name="ActualTime" type="1"/>
+				<intellisenseItem name="AssignedTo" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_tcf" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="TCFID" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="Weight" type="1"/>
+				<intellisenseItem name="Value" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_template" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="TemplateID" type="1"/>
+				<intellisenseItem name="TemplateType" type="1"/>
+				<intellisenseItem name="TemplateName" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="Style" type="1"/>
+				<intellisenseItem name="Template" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_testclass" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="TestClass" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_testplans" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="PlanID" type="1"/>
+				<intellisenseItem name="Category" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Author" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="TestPlan" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_testtypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="TestType" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="NumericWeight" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_trxtypes" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="NumericWeight" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="TRX" type="1"/>
+				<intellisenseItem name="TRX_ID" type="1"/>
+				<intellisenseItem name="Style" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_umlpattern" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="PatternID" type="1"/>
+				<intellisenseItem name="PatternCategory" type="1"/>
+				<intellisenseItem name="PatternName" type="1"/>
+				<intellisenseItem name="Style" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="PatternXML" type="1"/>
+				<intellisenseItem name="Version" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_version" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="ElementID" type="1"/>
+				<intellisenseItem name="VersionID" type="1"/>
+				<intellisenseItem name="ElementType" type="1"/>
+				<intellisenseItem name="Flags" type="1"/>
+				<intellisenseItem name="ExternalFile" type="1"/>
+				<intellisenseItem name="Notes" type="1"/>
+				<intellisenseItem name="Owner" type="1"/>
+				<intellisenseItem name="VersionDate" type="1"/>
+				<intellisenseItem name="Branch" type="1"/>
+				<intellisenseItem name="ElementXML" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_xref" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="XrefID" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Type" type="1"/>
+				<intellisenseItem name="Visibility" type="1"/>
+				<intellisenseItem name="Namespace" type="1"/>
+				<intellisenseItem name="Requirement" type="1"/>
+				<intellisenseItem name="Constraint" type="1"/>
+				<intellisenseItem name="Behavior" type="1"/>
+				<intellisenseItem name="Partition" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="Client" type="1"/>
+				<intellisenseItem name="Supplier" type="1"/>
+				<intellisenseItem name="Link" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_xrefsystem" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="XrefID" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Type" type="1"/>
+				<intellisenseItem name="Visibility" type="1"/>
+				<intellisenseItem name="Namespace" type="1"/>
+				<intellisenseItem name="Requirement" type="1"/>
+				<intellisenseItem name="Constraint" type="1"/>
+				<intellisenseItem name="Behavior" type="1"/>
+				<intellisenseItem name="Partition" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="Client" type="1"/>
+				<intellisenseItem name="Supplier" type="1"/>
+				<intellisenseItem name="Link" type="1"/>
+				<intellisenseItem name="ToolID" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+		<intellisenseItem name="t_xrefuser" type="4">
+			<intellisenseItems>
+				<intellisenseItem name="XrefID" type="1"/>
+				<intellisenseItem name="Name" type="1"/>
+				<intellisenseItem name="Type" type="1"/>
+				<intellisenseItem name="Visibility" type="1"/>
+				<intellisenseItem name="Namespace" type="1"/>
+				<intellisenseItem name="Requirement" type="1"/>
+				<intellisenseItem name="Constraint" type="1"/>
+				<intellisenseItem name="Behavior" type="1"/>
+				<intellisenseItem name="Partition" type="1"/>
+				<intellisenseItem name="Description" type="1"/>
+				<intellisenseItem name="Client" type="1"/>
+				<intellisenseItem name="Supplier" type="1"/>
+				<intellisenseItem name="Link" type="1"/>
+				<intellisenseItem name="ToolID" type="1"/>
+			</intellisenseItems>
+		</intellisenseItem>
+
+    </intellisenseItems>       
+</intellisenseDB>
+

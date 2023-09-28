@@ -1,0 +1,988 @@
+<?xml version="1.0"?>
+<intellisenseDB>
+    <intellisenseTriggers calltipStart="(" calltipEnd=")" accessorToken="."/>
+    <intellisenseItems>
+        <!-- Function definitions-->
+		<intellisenseItem name="checkSettings" mouseOverText="Display some diagnostics." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="loadFile" mouseOverText="load file (*.mo) and merge it with the loaded AST. \n\n Note that if the file basename is package.mo and the parent directory is the top-level class, the library structure is loaded as if loadModel(ClassName) was called. Uses-annotations are respected if uses=true. The main difference from loadModel is that loadFile appends this directory to the MODELICAPATH (for this call only)." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="loadFiles" mouseOverText="load files (*.mo) and merges them with the loaded AST." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="reloadClass" mouseOverText="reloads the file associated with the given (loaded class)" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="loadString" mouseOverText="Parses the data and merges the resulting AST with ithe loaded AST. If a filename is given, it is used to provide error-messages as if the string was read in binary format from a file with the same name. The file is converted to UTF-8 from the given character set. NOTE: Encoding is deprecated as *ALL* strings are now UTF-8 encoded." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="parseString" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="parseFile" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="loadFileInteractiveQualified" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="loadFileInteractive" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="system" mouseOverText="Executes the given command in the system shell." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="system_parallel" mouseOverText="Executes the given commands in the system shell, in parallel if omc was compiled using OpenMP." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="saveAll" mouseOverText="save the entire loaded AST to file." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="help" mouseOverText="display the OpenModelica help text." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="clear" mouseOverText="Clears everything: symboltable and variables." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="clearProgram" mouseOverText="Clears loaded ." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="clearVariables" mouseOverText="Clear all user defined variables." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="generateHeader" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="generateSeparateCode" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="generateSeparateCodeDependencies" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="generateSeparateCodeDependenciesMakefile" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getLinker" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setLinker" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getLinkerFlags" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setLinkerFlags" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getCompiler" mouseOverText="CC" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setCompiler" mouseOverText="CC" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setCFlags" mouseOverText="CFLAGS" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getCFlags" mouseOverText="CFLAGS" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getCXXCompiler" mouseOverText="CXX" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setCXXCompiler" mouseOverText="CXX" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="verifyCompiler" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setCompilerPath" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getCompileCommand" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setCompileCommand" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setPlotCommand" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getSettings" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setTempDirectoryPath" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getTempDirectoryPath" mouseOverText="Returns the current user temporary directory location." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getEnvironmentVar" mouseOverText="Returns the value of the environment variable." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setEnvironmentVar" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="appendEnvironmentVar" mouseOverText="Appends a variable to the environment variables list." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setInstallationDirectoryPath" mouseOverText="Sets the OPENMODELICAHOME environment variable. Use this method instead of setEnvironmentVar." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getInstallationDirectoryPath" mouseOverText="This returns OPENMODELICAHOME if it is set; on some platforms the default path is returned if it is not set." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setModelicaPath" mouseOverText="The Modelica Library Path - MODELICAPATH in the language specification; OPENMODELICALIBRARY in OpenModelica." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getModelicaPath" mouseOverText="Get the Modelica Library Path." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setCompilerFlags" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setDebugFlags" mouseOverText="example input: failtrace,-noevalfunc" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="clearDebugFlags" mouseOverText="Resets all debug flags to their default values." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setPreOptModules" mouseOverText="example input: removeFinalParameters,removeSimpleEquations,expandDerOperator" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setCheapMatchingAlgorithm" mouseOverText="example input: 3" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getMatchingAlgorithm" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getAvailableMatchingAlgorithms" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setMatchingAlgorithm" mouseOverText="example input: omc" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getIndexReductionMethod" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getAvailableIndexReductionMethods" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setIndexReductionMethod" mouseOverText="example input: dynamicStateSelection" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setPostOptModules" mouseOverText="example input: lateInline,inlineArrayEqn,removeSimpleEquations." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getTearingMethod" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getAvailableTearingMethods" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setTearingMethod" mouseOverText="example input: omcTearing" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setCommandLineOptions" mouseOverText="The input is a regular command-line flag given to OMC, e.g. +d=failtrace or +g=MetaModelica" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getConfigFlagValidOptions" mouseOverText="Returns the list of valid options for a string config flag, and the description strings for these options if available" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="clearCommandLineOptions" mouseOverText="Resets all command-line flags to their default values." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getVersion" mouseOverText="Returns the version of the Modelica compiler." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="regularFileExists" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="directoryExists" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="readFile" mouseOverText="The contents of the given file are returned. Note that if the function fails, the error message is returned as a string instead of multiple output or similar." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="writeFile" mouseOverText="Write the data to file. Returns true on success." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="compareFilesAndMove" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="compareFiles" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="alarm" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="regex" mouseOverText="The returned result is the same as POSIX regex(). Sets the error buffer and returns -1 if the regex does not compile." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="regexBool" mouseOverText="Returns true if the string matches the regular expression." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="testsuiteFriendlyName" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="readFileNoNumeric" mouseOverText="Returns the contents of the file, with anything resembling a (real) number stripped out, and at the end adding: Filter count from number domain: n. This should probably be changed to multiple outputs; the filtered string and an integer. Does anyone use this API call?" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getErrorString" mouseOverText="Returns the current error message. [file.mo:n:n-n:n:b] Error: message" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getMessagesString" mouseOverText="see getErrorString()" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="SourceInfo" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="ErrorKind" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="ErrorLevel" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="ErrorMessage" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getMessagesStringInternal" mouseOverText="{{[file.mo:n:n-n:n:b] Error: message, TRANSLATION, Error, code}} if unique = true (the default) only unique messages will be shown" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="countMessages" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="clearMessages" mouseOverText="Clears the error buffer." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="runScript" mouseOverText="Runs the mos-script specified by the filename." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="echo" mouseOverText="echo(false) disables Interactive output, echo(true) enables it again." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getClassesInModelicaPath" mouseOverText="MathCore-specific or not? Who knows!" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getAnnotationVersion" mouseOverText="Returns the current annotation version." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setAnnotationVersion" mouseOverText="Sets the annotation version." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getNoSimplify" mouseOverText="Returns true if noSimplify flag is set." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setNoSimplify" mouseOverText="Sets the noSimplify flag." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getVectorizationLimit" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setVectorizationLimit" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getDefaultOpenCLDevice" mouseOverText="Returns the id for the default OpenCL device to be used." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setDefaultOpenCLDevice" mouseOverText="Sets the default OpenCL device to be used." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setShowAnnotations" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getShowAnnotations" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setOrderConnections" mouseOverText="Sets the orderConnection flag." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getOrderConnections" mouseOverText="Returns true if orderConnections flag is set." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setLanguageStandard" mouseOverText="Sets the Modelica Language Standard." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getLanguageStandard" mouseOverText="Returns the current Modelica Language Standard in use." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getAstAsCorbaString" mouseOverText="Print the whole AST on the CORBA format for records, e.g. record Absyn.PROGRAM classes = ..., within_ = ..., globalBuildTimes = ... end Absyn.PROGRAM;" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="cd" mouseOverText="change directory to the given path (which may be either relative or absolute) returns the new working directory on success or a message on failure if the given path is the empty string, the function simply returns the current working directory." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="mkdir" mouseOverText="create directory of given path (which may be either relative or absolute) returns true if directory was created or already exists." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="remove" mouseOverText="removes a file or directory of given path (which may be either relative or absolute) returns 0 if path was removed successfully." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="checkModel" mouseOverText="Checks a model and returns number of variables and equations." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="checkAllModelsRecursive" mouseOverText="Checks all models recursively and returns number of variables and equations." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="typeOf" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="instantiateModel" mouseOverText="Instantiates the class and returns the flat Modelica code." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="buildOpenTURNSInterface" mouseOverText="generates wrapper code for OpenTURNS." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="runOpenTURNSPythonScript" mouseOverText="runs OpenTURNS with the given python script returning the log file" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="generateCode" mouseOverText="The input is a function name for which C-code is generated and compiled into a dll/so" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="loadModel" mouseOverText="Loads the Modelica Standard Library." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="deleteFile" mouseOverText="Deletes a file with the given name." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="saveModel" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="saveTotalModel" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="save" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="saveTotalSCode" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="translateGraphics" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="codeToString" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="dumpXMLDAE" mouseOverText="Outputs the DAE system corresponding to a specific model." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="convertUnits" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="listVariables" mouseOverText="Lists the names of the active variables in the scripting environment." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="strtok" mouseOverText="Splits the strings at the places given by the token." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="stringReplace" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="escapeXML" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="ExportKind" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="list" mouseOverText="Lists the contents of the given class, or all loaded classes." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="exportToFigaro" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="rewriteBlockCall" mouseOverText="Function for property modeling, transforms block calls into instantiations for a loaded model" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="realpath" mouseOverText="Get full path name of file or directory name" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="uriToFilename" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getLoadedLibraries" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="LinearSystemSolver" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="solveLinearSystem" mouseOverText="Solve A*X = B, using dgesv or lp_solve (if any variable in X is integer) Returns for solver dgesv: info&gt;0: Singular for element i. info&lt;0: Bad input. For solver lp_solve: ???" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="StandardStream" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="reopenStandardStream" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="importFMU" mouseOverText="Imports the Functional Mockup Unit." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="translateModelFMU" mouseOverText="translates a modelica model into a Functional Mockup Unit." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="simulate" mouseOverText="simulates a modelica model by generating c code, build it and run the simulation executable. The only required argument is the className, while all others have some default values. simulate(className, [startTime], [stopTime], [numberOfIntervals], [tolerance], [method], [fileNamePrefix], [options], [outputFormat], [variableFilter], [cflags], [simflags]) Example command: simulate(A);" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="buildModel" mouseOverText="builds a modelica model by generating c code and build it. It does not run the code! The only required argument is the className, while all others have some default values." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="moveClass" mouseOverText="moves a class up or down depending on the given direction, it returns true if the move was performed or false if we could not move the class." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="copyClass" mouseOverText="Copies a class within the same level." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="linearize" mouseOverText="creates a model with symbolic linearization matrixes" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="optimize" mouseOverText="optimize a modelica/optimica model by generating c code, build it and run the optimization executable." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getSourceFile" mouseOverText=" 	Returns the filename of the class." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setSourceFile" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="isShortDefinition" mouseOverText="returns true if the definition is a short class definition" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setClassComment" mouseOverText="Sets the class comment." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getClassNames" mouseOverText="Returns the list of class names defined in the class." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getUsedClassNames" mouseOverText="Returns the list of class names used in the total program defined by the class." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getPackages" mouseOverText="Returns the list of packages defined in the class." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="basePlotFunction" mouseOverText="Extending this does not seem to work at the moment. A real shame; functions below are copy-paste and all need to be updated if the interface changes." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="plot" mouseOverText="Launches a plot window using OMPlot." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="plotAll" mouseOverText="Works in the same way as plot(), but does not accept any variable names as input. Instead, all variables are part of the plot window." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="visualize" mouseOverText="Uses the 3D visualization package, SimpleVisual.mo, to visualize the model. See chapter 3.4 (3D Animation) of the OpenModelica System Documentation for more details. " type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="plotParametric" mouseOverText="Launches a plotParametric window using OMPlot. Returns true on success. Example command sequences: simulate(A);plotParametric(x,y); simulate(A);plotParametric(x,y, externalWindow=true);" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="readSimulationResult" mouseOverText="Reads a result file, returning a matrix corresponding to the variables and size given." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="readSimulationResultSize" mouseOverText="The number of intervals that are present in the output file." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="readSimulationResultVars" mouseOverText="Returns the variables in the simulation file; you can use val() and plot() commands using these names." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="compareSimulationResults" mouseOverText="compares simulation results." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="diffSimulationResults" mouseOverText="compares simulation results." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="diffSimulationResultsHtml" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="checkTaskGraph" mouseOverText="Checks if the given taskgraph has the same structure as the reference taskgraph and if all attributes are set correctly." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="checkCodeGraph" mouseOverText="Checks if the given taskgraph has the same structure as the graph described in the codefile." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="val" mouseOverText="Return the value of a variable at a given time in the simulation results" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="closeSimulationResultFile" mouseOverText=" Closes the current simulation result file. Only needed by Windows. Windows cannot handle reading and writing to the same file from different processes. To allow OMEdit to make successful simulation again on the same file we must close the file after reading the Simulation Result Variables. Even OMEdit only use this API for Windows." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="addClassAnnotation" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getParameterNames" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getParameterValue" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getComponentModifierNames" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getAlgorithmCount" mouseOverText="Counts the number of Algorithm sections in a class." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getNthAlgorithm" mouseOverText="Returns the Nth Algorithm section." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getInitialAlgorithmCount" mouseOverText="Counts the number of Initial Algorithm sections in a class." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getNthInitialAlgorithm" mouseOverText="Returns the Nth Initial Algorithm section." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getAlgorithmItemsCount" mouseOverText="Counts the number of Algorithm items in a class." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getNthAlgorithmItem" mouseOverText="Returns the Nth Algorithm Item." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getInitialAlgorithmItemsCount" mouseOverText="Counts the number of Initial Algorithm items in a class." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getNthInitialAlgorithmItem" mouseOverText="Returns the Nth Initial Algorithm Item." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getEquationCount" mouseOverText="Counts the number of Equation sections in a class." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getNthEquation" mouseOverText="Returns the Nth Equation section." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getInitialEquationCount" mouseOverText="Counts the number of Initial Equation sections in a class." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getNthInitialEquation" mouseOverText="Returns the Nth Initial Equation section." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getEquationItemsCount" mouseOverText="Counts the number of Equation items in a class." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getNthEquationItem" mouseOverText="Returns the Nth Equation Item." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getInitialEquationItemsCount" mouseOverText="Counts the number of Initial Equation items in a class." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getNthInitialEquationItem" mouseOverText="Returns the Nth Initial Equation Item." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getAnnotationCount" mouseOverText="Counts the number of Annotation sections in a class." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getNthAnnotationString" mouseOverText="Returns the Nth Annotation section as string." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getImportCount" mouseOverText="Counts the number of Import sections in a class." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getNthImport" mouseOverText="Returns the Nth Import as string." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="iconv" mouseOverText="The iconv() function converts one multibyte characters from one character set to another. See man (3) iconv for more information." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getDocumentationAnnotation" mouseOverText="Returns the documentaiton annotation defined in the class." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setDocumentationAnnotation" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getTimeStamp" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="stringTypeName" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="stringVariableName" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="typeNameString" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="typeNameStrings" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getClassComment" mouseOverText="Returns the class comment." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="dirname" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="basename" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getClassRestriction" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="isType" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="isPackage" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="isClass" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="isRecord" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="isBlock" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="isFunction" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="isPartial" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="isModel" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="isConnector" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="isOptimization" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="isEnumeration" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="isOperator" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="isOperatorRecord" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="isOperatorFunction" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="isProtectedClass" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getBuiltinType" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="setInitXmlStartValue" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="ngspicetoModelica" mouseOverText="Converts ngspice netlist to Modelica code. Modelica file is created in the same directory as netlist file." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getComponentsTest" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="isExperiment" mouseOverText="An experiment is defined as having annotation Experiment(stopTime=...)" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getSimulationOptions" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="classAnnotationExists" mouseOverText="Check if annotation exists" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getBooleanClassAnnotation" mouseOverText="Check if annotation exists and returns its value" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="extendsFrom" mouseOverText="returns true if the given class extends from the given base class" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="loadModelica3D" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="searchClassNames" mouseOverText="Searches for the class name in the all the loaded classes." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getAvailableLibraries" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getUses" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getDerivedClassModifierNames" mouseOverText="Returns the derived class modifier names." type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getDerivedClassModifierValue" mouseOverText="Returns the derived class modifier value. " type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="generateEntryPoint" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="numProcessors" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="runScriptParallel" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="exit" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="threadWorkFailed" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getMemorySize" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="GC_gcollect_and_unmap" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="GC_expand_hp" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="checkInterfaceOfPackages" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="sortStrings" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="getClassInformation" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+		<intellisenseItem name="generateScriptingAPI" mouseOverText="" type="2">
+			<calltips>
+			</calltips>
+		</intellisenseItem>
+    </intellisenseItems>
+</intellisenseDB>
+

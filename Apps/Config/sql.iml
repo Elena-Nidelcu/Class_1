@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<intellisenseDB>
+    <intellisenseTriggers calltipStart="(" calltipEnd=")" accessorToken="."/>
+    <intellisenseItems>
+        <!-- Attribute definitions -->
+        <intellisenseItem 
+            name="ADD" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="ALTER" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="AND" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="AS" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="ASC" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="BETWEEN" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="COLUMN" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="CREATE" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="DATABASE" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="DELETE" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="DESC" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="DROP" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="FROM" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="IN" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="INDEX" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="INNER JOIN" 
+            type="3"/>
+        
+        <intellisenseItem 
+            name="INSERT INTO" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="LEFT JOIN" 
+            type="3"/>
+                
+        <intellisenseItem 
+            name="LIKE" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="NOT" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="ON" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="OR" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="ORDER BY" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="RIGHT JOIN" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="SELECT" 
+            type="3"/>
+            
+        <intellisenseItem 
+            name="SELECT DISTINCT" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="SET" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="TABLE" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="TRUNCATE" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="UNION" 
+            type="3"/>
+            
+        <intellisenseItem 
+            name="UNION ALL" 
+            type="3"/>
+            
+        <intellisenseItem 
+            name="UNIQUE INDEX" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="UPDATE" 
+            type="3"/>
+
+        <intellisenseItem 
+            name="VALUES" 
+            type="3"/>
+            
+        <intellisenseItem 
+            name="WHERE" 
+            type="3"/>
+            
+        <!-- Function definitions-->
+        <intellisenseItem
+            name="AVG" 
+            mouseOverText="Returns the average value of a column." 
+            type="2">
+            <calltips>
+                <calltip text="AVG(column)"/>
+            </calltips>
+        </intellisenseItem>
+
+        <intellisenseItem
+            name="COUNT" 
+            mouseOverText="Returns the number of non NULL rows of a column." 
+            type="2">
+            <calltips>
+                <calltip text="COUNT(column)"/>
+            </calltips>
+        </intellisenseItem>        
+
+        <intellisenseItem
+            name="FIRST" 
+            mouseOverText="Returns the value of the first record in a column." 
+            type="2">
+            <calltips>
+                <calltip text="FIRST(column)"/>
+            </calltips>
+        </intellisenseItem> 
+
+        <intellisenseItem
+            name="LAST" 
+            mouseOverText="Returns the value of the last record in a column." 
+            type="2">
+            <calltips>
+                <calltip text="LAST(column)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="MAX" 
+            mouseOverText="Returns the highest value of a column." 
+            type="2">
+            <calltips>
+                <calltip text="MAX(column)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="MIN" 
+            mouseOverText="Returns the lowest value of a column." 
+            type="2">
+            <calltips>
+                <calltip text="MIN(column)"/>
+            </calltips>
+        </intellisenseItem> 
+
+        <intellisenseItem
+            name="SUM" 
+            mouseOverText="Returns the aggregate sum of a column." 
+            type="2">
+            <calltips>
+                <calltip text="SUM(column)"/>
+            </calltips>
+        </intellisenseItem> 
+    </intellisenseItems>       
+</intellisenseDB>
+

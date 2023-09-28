@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<intellisenseDB>
+    <intellisenseItems>
+        <!-- ##################################################### -->
+        <!-- ##         SYSTEMS ENGINEERING DEFINITIONS         ## -->
+        <!-- ##################################################### -->
+        <!-- TEMPLATE MACRO DEFINITIONS -->
+        <intellisenseItem
+            name="Action"
+            mouseOverText="Action: Generate code for an Action."
+            type="1"/>
+        <intellisenseItem
+            name="ActionAssignment"
+            mouseOverText="ActionAssignment: Generate code for an Assignment action."
+            type="1"/>
+        <intellisenseItem
+            name="ActionBreak"
+            mouseOverText="ActionBreak: Generate code for a Break action."
+            type="1"/>
+        <intellisenseItem
+            name="ActionCall"
+            mouseOverText="ActionCall: Generate code for a Call action."
+            type="1"/>
+        <intellisenseItem
+            name="ActionCreate"
+            mouseOverText="ActionCreate: Generate code for a Create action."
+            type="1"/>
+        <intellisenseItem
+            name="ActionDestroy"
+            mouseOverText="ActionDestroy: Generate code for a Destroy action."
+            type="1"/>
+        <intellisenseItem
+            name="ActionIf"
+            mouseOverText="ActionIf: Generate code for an If action"
+            type="1"/>
+        <intellisenseItem
+            name="ActionLoop"
+            mouseOverText="ActionLoop: Generate code for a Loop action."
+            type="1"/>
+        <intellisenseItem
+            name="ActionOpaque"
+            mouseOverText="ActionOpaque: Generate code for an Opaque action."
+            type="1"/>
+        <intellisenseItem
+            name="ActionParallel"
+            mouseOverText="ActionParallel: Generate code for a Parallel action."
+            type="1"/>
+        <intellisenseItem
+            name="ActionRaiseEvent"
+            mouseOverText="ActionParallel: Generate code for a RaiseEvent action."
+            type="1"/>                                                                                      
+        <intellisenseItem
+            name="ActionRaiseException"
+            mouseOverText="ActionParallel: Generate code for a RaiseException action."
+            type="1"/>
+        <intellisenseItem
+            name="ActionSwitch"
+            mouseOverText="ActionSwitch: Generate code for a Switch action."
+            type="1"/>
+        <intellisenseItem
+            name="Behavior"
+            mouseOverText="Behavior: Generate code for an Activity or Interaction."
+            type="1"/>
+        <intellisenseItem
+            name="BehaviorDeclaration"
+            mouseOverText="BehaviorDeclaration: Render behavior declaration (signature)."
+            type="1"/>
+        <intellisenseItem
+            name="BehaviorBody"
+            mouseOverText="BehaviorBody: Render code for the behavioral model."
+            type="1"/>
+        <intellisenseItem
+            name="BehaviorParameter"
+            mouseOverText="BehaviorParameter: Render code for a behavior parameter."
+            type="1"/>
+        <intellisenseItem
+            name="CallArgument"
+            mouseOverText="CallArgument: Render code for an invocation's (Call Action) argument."
+            type="1"/>
+        <intellisenseItem
+            name="Guard"
+            mouseOverText="Guard: Render a transition's guard expression."
+            type="1"/>
+        <intellisenseItem
+            name="Property"
+            mouseOverText="Property: Generate code for a property."
+            type="1"/>
+        <intellisenseItem
+            name="PropertyDeclaration"
+            mouseOverText="PropertyDeclaration: Render a property declaration."
+            type="1"/>
+        <intellisenseItem
+            name="PropertyNotes"
+            mouseOverText="PropertyNotes: Render property notes."
+            type="1"/>
+        <intellisenseItem
+            name="StateMachine"
+            mouseOverText="StateMachine: Generate code for the state machine encapsulated within the class."
+            type="1"/>
+        <intellisenseItem
+            name="StateMachineHistoryVar"
+            mouseOverText="StateMachineHistoryVar: Enumerate the history variable of a state."
+            type="1"/>
+        <intellisenseItem
+            name="StateEnumerate"
+            mouseOverText="StateEnumerate: Enumerated name of state or transition."
+            type="1"/>
+        <intellisenseItem
+            name="StateEnumeratedName"
+            mouseOverText="StateEnumeratedName: Enumerated name of state or transition."
+            type="1"/>            
+        <intellisenseItem
+            name="StateCallBack"
+            mouseOverText="StateCallBack: Render the callback function mapped to a state."
+            type="1"/>
+        <intellisenseItem
+            name="Transition"
+            mouseOverText="Transition: Generate code for a transition."
+            type="1"/>
+        <intellisenseItem
+            name="TransitionEffect"
+            mouseOverText="TransitionEffect: Render a transition's effect."
+            type="1"/>
+        <intellisenseItem
+            name="Trigger"
+            mouseOverText="Trigger: Generate code for a trigger."
+            type="1"/>
+                                                                                                                                                                                                                                                                                                                                        
+            
+        <!-- FIELD MACRO DEFINITIONS -->
+		<intellisenseItem
+			name="genOptADAUsePackageName"
+			mouseOverText="ADA Specifications dialog: Use Class Name For Tagged Record"
+			type="2"/>
+		<intellisenseItem
+			name="genOptADARecordDefName"
+			mouseOverText="ADA Specifications dialog: Alternate Tagged Record Name"
+			type="2"/>
+		<intellisenseItem
+			name="genOptADARefParamName"
+			mouseOverText="ADA Specifications dialog: Ref Parameter Name"
+			type="2"/>
+		<intellisenseItem
+			name="genOptADARefParamStyle"
+			mouseOverText="ADA Specifications dialog: Ref Parameter Style"
+			type="2"/> 
+			
+        <!-- TAGGED VALUE MACRO DEFINITIONS -->
+                                                                        			
+        <!-- FUNCTION MACRO DEFINITIONS -->
+        <intellisenseItem
+            name="EASL_GET"
+            mouseOverText="EASL_GET(&lt;property&gt;, &lt;ownerID&gt;, &lt;name&gt;)\nRetrieves a property or a collection of an EASL object."
+            type="4">
+            <calltips>
+                <calltip text="EASL_GET(&lt;property&gt;, &lt;ownerID&gt;, &lt;name&gt;)"/>
+            </calltips>
+        </intellisenseItem>
+        <intellisenseItem
+            name="EASL_INIT"
+            mouseOverText="EASL_INIT(&lt;classGUID&gt;)\nInitializes the EASL code generation addin."
+            type="4">
+            <calltips>
+                <calltip text="EASL_INIT(&lt;classGUID&gt;)"/>
+            </calltips>
+        </intellisenseItem>
+        <intellisenseItem
+            name="EASL_END"
+            mouseOverText="EASL_END()\nFinalizes the EASL code generation addin."
+            type="4">
+            <calltips>
+                <calltip text="EASL_END()"/>
+            </calltips>
+        </intellisenseItem>                     
+    
+        <!-- ##################################################### -->
+        <!-- ##         BUSINESS ENGINEERING DEFINITIONS        ## -->
+        <!-- ##################################################### -->
+        <!-- TEMPLATE MACRO DEFINITIONS -->     
+        <intellisenseItem
+            name="RuleTask"
+            mouseOverText="RuleTask: Used by ActionOpaque template to extract information of rules modeled for a RuleTask element."
+            type="1"/>
+        <intellisenseItem
+            name="Rulet"
+            mouseOverText="Rulet: Used by RuleTask template to get information on individual rules modeled."
+            type="1"/>
+        <intellisenseItem
+            name="RuleCondition"
+            mouseOverText="RuleCondition: Used by Rulet template to generate the condition statement for the rule."
+            type="1"/>
+        <intellisenseItem
+            name="RuleAction"
+            mouseOverText="RuleAction: Used by Rulet template to generate the code on satisfying a condition of a rule."
+            type="1"/>                                        
+        <intellisenseItem
+            name="ComputeRulet"
+            mouseOverText="ComputeRulet: Used by RuleTask template to get information on computational rules modeled in the RuleTask element."
+            type="1"/>
+        <intellisenseItem
+            name="ComputeAction"
+            mouseOverText="ComputeAction: Used by ComputeAction template to generate computaional statements for a rule condition."
+            type="1"/>                      
+
+        <!-- FIELD MACRO DEFINITIONS -->
+        <intellisenseItem
+            name="attClassifierGUID"
+            mouseOverText="The unique GUID for the classifier of the current attribute."
+            type="2"/>
+        <intellisenseItem
+            name="conditionVariable"
+            mouseOverText="The variable on which the condition is applied in the conditional statement of the rule."
+            type="2"/>
+        <intellisenseItem
+            name="conditionOperator"
+            mouseOverText="The conditional operator to be used for the conditional statement of the rule."
+            type="2"/>
+        <intellisenseItem
+            name="conditionValue"
+            mouseOverText="The value to be satisfied in the conditional statement of the rule."
+            type="2"/>
+        <intellisenseItem
+            name="actionVariable"
+            mouseOverText="The variable which is affected when a condition is satisfied/unsatisfied for a rule."
+            type="2"/>
+        <intellisenseItem
+            name="actionValue"
+            mouseOverText="The effect on actionVariable when a condition is satisfied/unsatisfied for a rule."
+            type="2"/>
+        <intellisenseItem
+            name="ruleComment"
+            mouseOverText="Generates the natural language rule statement as a comment for the conditional rule logic code."
+            type="2"/>
+        <intellisenseItem
+            name="computeRuleComment"
+            mouseOverText="Generates the natural language rule statement as a comment for the unconditional computation rule logic code."
+            type="2"/>                                                                         
+              
+            
+        <!-- TAGGED VALUE MACRO DEFINITIONS -->
+                                                                        			
+        <!-- FUNCTION MACRO DEFINITIONS -->
+        <intellisenseItem
+            name="BR_INIT_RULETASK"
+            mouseOverText="BR_INIT_RULETASK(&lt;guid&gt;)\nInitializes the RuleTask object with the &lt;guid&gt; supplied for code generation."
+            type="4">
+            <calltips>
+                <calltip text="BR_INIT_RULETASK(&lt;guid&gt;)"/>
+            </calltips>
+        </intellisenseItem>
+        <intellisenseItem
+            name="BR_FINALIZE_RULETASK"
+            mouseOverText="BR_FINALIZE_RULETASK()\nFinalizes the RuleTask object that was initialized with BR_INIT_RULETASK()."
+            type="4">
+            <calltips>
+                <calltip text="BR_FINALIZE_RULETASK()"/>
+            </calltips>
+        </intellisenseItem>        
+        <intellisenseItem
+            name="BR_GET"
+            mouseOverText="BR_GET(&lt;propertyString&gt;)\nGets the value of the rule task property denoted by &lt;propertyString&gt;."
+            type="4">
+            <calltips>
+                <calltip text="BR_GET(&lt;propertyString&gt;)"/>
+            </calltips>
+        </intellisenseItem>                
+    </intellisenseItems>
+</intellisenseDB>

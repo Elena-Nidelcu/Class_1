@@ -1,0 +1,560 @@
+<?xml version="1.0"?>
+<intellisenseDB>
+    <intellisenseTriggers calltipStart="(" calltipEnd=")"/>
+    <intellisenseItems>
+        <!-- Attribute definitions -->
+        <intellisenseItem 
+            name="bottomAnchorOffset" 
+            mouseOverText="(int,int)\nWhen creating a shape script for an embedded element (e.g. Port), use this attribute to offset the shape from the bottom edge of its parent."
+            type="1"/>
+            
+        <intellisenseItem 
+            name="dockable"
+            mouseOverText="string\nDock elements together.\nValid Values: none, standard"
+            type="1"/> 
+                       
+        <intellisenseItem 
+            name="editableField" 
+            mouseOverText="string\nValid Values: alias, name, note, stereotype\nDefines a shape as an editable region of the element."
+            type="1"/>
+            
+        <intellisenseItem 
+            name="endpointX" 
+            mouseOverText="integer\nOnly used for the reserved target and source shapes for connectors; this point determines where the main connector line connects to the end shapes."
+            type="1"/>
+            
+        <intellisenseItem 
+            name="endpointY" 
+            mouseOverText="integer\nOnly used for the reserved target and source shapes for connectors; this point determines where the main connector line connects to the end shapes."
+            type="1"/>
+            
+        <intellisenseItem 
+            name="fixedAspectRatio"
+            mouseOverText="string\nOn increasing height, width will increase in proportion.\nValid values: true, false"
+            type="1"/> 
+                       
+        <intellisenseItem 
+            name="h_align"
+            mouseOverText="string\nAffects horizontal placement of printed text and subshapes depending on the layoutType attribute.\nValid values: left, center, or right" 
+            type="1"/>
+            
+        <intellisenseItem 
+            name="layoutType"
+            mouseOverText="string\nDetermines how subshapes are sized and positioned.\nValid values: leftright, topdown, border"
+            type="1"/>
+            
+        <intellisenseItem 
+            name="leftAnchorOffset" 
+            mouseOverText="(int,int)\nWhen creating a shape script for an embedded element (e.g. Port), use this attribute to offset the shape from the left edge of its parent."
+            type="1"/>
+            
+        <intellisenseItem 
+            name="noShadow"
+            mouseOverText="string\nAssign to true to suppress the shapes shadow from being rendered.\nValid values: true or false"
+            type="1"/>
+
+        <intellisenseItem 
+            name="bold"
+            mouseOverText="string\nAssign to true to print text in bold.\nValid values: true or false"
+            type="1"/>
+
+        <intellisenseItem 
+            name="italic"
+            mouseOverText="string\nAssign to true to print text in italics.\nValid values: true or false"
+            type="1"/>
+
+        <intellisenseItem 
+            name="orientation"
+            mouseOverText="string\nApplies to decoration shapes only. Determines where the decoration is positioned within the containing element glyph.\nValid values: NW, N, NE, E, SE, S, SW, W"
+            type="1"/>
+            
+        <intellisenseItem 
+            name="preferredHeight"
+            mouseOverText="int\nUsed by border layoutType - north and south.\nUsed in drawing the source and target shapes for connectors to determine how wide the line is."
+            type="1"/>
+            
+        <intellisenseItem 
+            name="preferredWidth"
+            mouseOverText="int\nUsed by border layoutType - east and west.\nUsed by leftright layoutType, shapes where scalable is false to determine how much space they occupy for layout purposes."
+            type="1"/>
+            
+        <intellisenseItem 
+            name="rightAnchorOffset"
+            mouseOverText="(int,int)\nWhen creating a shape script for an embedded element (e.g. Port), use this attribute to offset the shape from the right edge of its parent."
+            type="1"/>
+            
+        <intellisenseItem 
+            name="rotatable"
+            mouseOverText="string\nSet to false to prevent rotation of the shape. This attribute is only applicable to the source and target shapes for lines glyphs."
+            type="1"/>
+            
+        <intellisenseItem 
+            name="scalable"
+            mouseOverText="string\nSet to false to stop the shape from being relatively sized to the associated diagram glyph.\nValid values: true or false" 
+            type="1"/>
+            
+        <intellisenseItem 
+            name="topAnchorOffset"
+            mouseOverText="(int,int)\nWhen creating a shape script for an embedded element (e.g. Port), use this attribute to offset the shape from the top edge of its parent."
+            type="1"/>
+            
+        <intellisenseItem 
+            name="v_align"
+            mouseOverText="string\nAffects vertical placement of printed text and subshapes depending on the layoutType attribute."
+            type="1"/>
+    
+        <!-- Function definitions-->
+        <intellisenseItem
+            name="AddSubShape" 
+            mouseOverText="Adds a sub-shape with the name shapename that must be defined within the current shape definition." 
+            type="2">
+            <calltips>
+                <calltip text="AddSubShape(string shapename)"/>
+                <calltip text="AddSubShape(string, int width, int height)"/>
+            </calltips>
+        </intellisenseItem>        
+        
+        <intellisenseItem
+            name="Arc" 
+            mouseOverText="Draws an elliptical anticlockwise arc with the ellipse having extents at left, top, right and bottom. The start point of the arc is defined by the intersection of the ellipse and the line from the center of the ellipse to the point (startingpointx, startingpointy). The end of the arc is similarly defined by the intersection of the ellipse and the line from the center of the ellipse to the point (endingpointx, endingpointy)." 
+            type="2">
+            <calltips>
+                <calltip text="Arc(int left, int top, int right, int bottom, int startingpointx, int startingpointy, int endingpointx, int endingpointy)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="ArcTo" 
+            mouseOverText="As for the arc method, except that a line is drawn from the current position to the starting point of the arc, and then the current position is updated to the end point of the arc." 
+            type="2">
+            <calltips>
+                <calltip text="ArcTo(int left, int top, int right, int bottom, int startingpointx, int startingpointy, int endingpointx, int endingpointy)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="BezierTo" 
+            mouseOverText="Draws a bezier curve and updates the pen position." 
+            type="2">
+            <calltips>
+                <calltip text="BezierTo(int controlpoint1x, int controlpoint1y, int controlpoint2x, int controlpoint2y, int endpointx, int endpointy)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="DrawNativeShape" 
+            mouseOverText="Causes Enterprise Architect to render the shape using its usual, non-Shapescript notation. Subsequent drawing commands are super-imposed over the native notation.\nThis method is only enabled for element shape scripts; line shape scripts are not supported."
+            type="2">
+            <calltips>
+                <calltip text="DrawNativeShape()"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="Ellipse" 
+            mouseOverText="Draws an ellipse with extents defined by left, top, right and bottom."
+            type="2">
+            <calltips>
+                <calltip text="Ellipse(int left, int top, int right, int bottom)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="EndPath" 
+            mouseOverText="Ends the sequence of drawing commands that define a path."
+            type="2">
+            <calltips>
+                <calltip text="Endpath()"/>
+            </calltips>
+        </intellisenseItem>
+    
+        <intellisenseItem
+            name="FillAndStrokePath" 
+            mouseOverText="Fills the previously defined path with the current fill color, then draws its outline with the current pen."
+            type="2">
+            <calltips>
+                <calltip text="FillAndStrokePath()"/>
+            </calltips>
+        </intellisenseItem>
+     
+         <intellisenseItem
+            name="FillPath" 
+            mouseOverText="Fills the previously defined path with the current fill color."
+            type="2">
+            <calltips>
+                <calltip text="FillPath()"/>
+            </calltips>
+        </intellisenseItem>
+    
+         <intellisenseItem
+            name="GetUserFillColor" 
+            mouseOverText=""
+            type="2">
+            <calltips>
+                <calltip text="GetUserFillColor()"/>
+            </calltips>
+        </intellisenseItem>
+        
+         <intellisenseItem
+            name="GetUserBorderColor" 
+            mouseOverText=""
+            type="2">
+            <calltips>
+                <calltip text="GetUserBorderColor()"/>
+            </calltips>
+        </intellisenseItem>
+        
+         <intellisenseItem
+            name="GetUserFontColor" 
+            mouseOverText=""
+            type="2">
+            <calltips>
+                <calltip text="GetUserFontColor()"/>
+            </calltips>
+        </intellisenseItem>
+        
+         <intellisenseItem
+            name="GetUserPenSize" 
+            mouseOverText=""
+            type="2">
+            <calltips>
+                <calltip text="GetUserPenSize()"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="GetUserPenSize" 
+            mouseOverText=""
+            type="2">
+            <calltips>
+                <calltip text="GetUserPenSize()"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="HasTag" 
+            mouseOverText="Returns true if the associated element has a tag value with the name tagname.\n\nIf the second parameter tagvalue is provided, the tag tagname must be present, and the value of the tag has to be equal to tagvalue for the method to return true."
+            type="2">
+            <calltips>
+                <calltip text="boolean HasTag(string tagname)"/>
+                <calltip text="boolean HasTag(string tagname, string tagvalue)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="HasProperty" 
+            mouseOverText="Returns true if the associated element has a property with the name propertyname.\n\nIf the second parameter propertyvalue is provided, the property must be present, and the value of the property has to be equal to propertyvalue for the method to return true."
+            type="2">
+            <calltips>
+                <calltip text="boolean HasProperty(string propertyname)"/>
+                <calltip text="boolean HasProperty(string propertyname, string propertyvalue)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="Image" 
+            mouseOverText="Draws the image that has the name imageId in the Image Manager."
+            type="2">
+            <calltips>
+                <calltip text="Image(string imageId, int left, int top, int right, int bottom)"/>
+            </calltips>
+        </intellisenseItem>
+    
+        <intellisenseItem
+            name="LineTo" 
+            mouseOverText="Draws a line from the current cursor position to the point specified by x and y, and then updates the pen cursor to that position."
+            type="2">
+            <calltips>
+                <calltip text="LineTo(int x, int y)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="MoveTo" 
+            mouseOverText="Moves the pen cursor to the point specified by x and y."
+            type="2">
+            <calltips>
+                <calltip text="MoveTo(int x, int y)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="Polygon" 
+            mouseOverText="Draws a regular polygon with center at the point (centerx, centery), and numberofsides number of sides."
+            type="2">
+            <calltips>
+                <calltip text="Polygon(int centerx, int centery, int numberofsides, int radius, float rotation)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="Print" 
+            mouseOverText="Prints the specified text string.\nNOTE: You cannot change the font size, type or color of this text."
+            type="2">
+            <calltips>
+                <calltip text="Print(string text)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="PrintIfDefined" 
+            mouseOverText="Prints the specified text string, wrapped over multiple lines if the text is wider than its containing shape.\nNOTE: You cannot change the font size, type or color of this text."
+            type="2">
+            <calltips>
+                <calltip text="PrintIfDefined(string propertyname, string truepart)"/>
+                <calltip text="PrintIfDefined(string propertyname, string truepart, string falsepart)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="Println" 
+            mouseOverText="Appends a line of text to the shape and a line break.\nNOTE: You cannot change the font size, type or color of this text."
+            type="2">
+            <calltips>
+                <calltip text="Println(string text)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="PrintWrapped" 
+            mouseOverText="Prints the specified text string, wrapped over multiple lines if the text is wider than its containing shape.\nNOTE: You cannot change the font size, type or color of this text."
+            type="2">
+            <calltips>
+                <calltip text="PrintWrapped(string text)"/>
+            </calltips>
+        </intellisenseItem>
+        
+         <intellisenseItem
+            name="Rectangle" 
+            mouseOverText="Draws a rectangle with extents at left, top, right, bottom."
+            type="2">
+            <calltips>
+                <calltip text="Rectangle(int left, int top, int right, int bottom)"/>
+            </calltips>
+        </intellisenseItem>   
+       
+        <intellisenseItem
+            name="RoundRect" 
+            mouseOverText="Draws a rectangle with rounded corners, with extents defined by left, top, right and bottom. The size for the corners is defined by abs_cornerwidth and abs_cornerheight; these values do not scale with the shape."
+            type="2">
+            <calltips>
+                <calltip text="RoundRect(int left, int top, int right, int bottom, int abs_cornerwidth, int abs_cornerheight)"/>
+            </calltips>
+        </intellisenseItem> 
+      
+        <intellisenseItem
+            name="SetDefaultColors" 
+            mouseOverText="Returns the brush and pen color to the default settings, or to the user-defined colors if available."
+            type="2">
+            <calltips>
+                <calltip text="SetDefaultColors()"/>
+            </calltips>
+        </intellisenseItem>   
+    
+        <intellisenseItem
+            name="SetFillColor" 
+            mouseOverText="Sets the fill color.\nThe desired color may be specified by defining RGB values or using a Color value returned by any of the color queries (eg GetUserFillColor())"
+            type="2">
+            <calltips>
+                <calltip text="SetFillColor(int red, int green, int blue)"/>
+                <calltip text="SetFillColor(Color newColor)"/>
+            </calltips>
+        </intellisenseItem>
+    
+        <intellisenseItem
+            name="SetLineStyle" 
+            mouseOverText="Changes the stroke pattern for commands that use the pen.\nThe following styles are valid: solid, dash, dot, dashdot, dashdotdot."
+            type="2">
+            <calltips>
+                <calltip text="SetLineStyle(string linestyle)"/>
+            </calltips>
+        </intellisenseItem>    
+    
+        <intellisenseItem
+            name="SetOrigin" 
+            mouseOverText="Positions floating text labels relative to the main shape.\nrelativeTo is one of N, NE, E, SE, S, SW, W, NW, CENTER\nxOffset and yOffset are in pixels, not percentage values, and can be negative."
+            type="2">
+            <calltips>
+                <calltip text="SetLineStyle(string relativeTo, int xOffset, int yOffset)"/>
+            </calltips>
+        </intellisenseItem>  
+    
+        <intellisenseItem
+            name="SetPen" 
+            mouseOverText="Sets the pen to the defined color and optionally sets the pen width.\nThe desired color may be specified by defining RGB values\nor by any of the color queries (eg GetUserFillColor())\n\nNOTE: This method is only for line-drawing commands. It does not affect any text commands."
+            type="2">
+            <calltips>
+                <calltip text="SetPen(int red, int green, int blue)"/>
+				<calltip text="SetPen(int red, int green, int blue, int penWidth)"/>
+				<calltip text="SetPen(Color newColor)"/>
+                <calltip text="SetPen(Color newColor, int penWidth)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="SetPenColor" 
+            mouseOverText="Sets the pen color.\nThe desired color may be specified by defining RGB values or using a Color value returned by any of the color queries (eg GetUserFillColor())\n\nNOTE: This method is only for line-drawing commands. It does not affect any text commands."
+            type="2">
+            <calltips>
+                <calltip text="SetPenColor(int red, int green, int blue)"/>
+                <calltip text="SetPenColor(Color newColor)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="SetPenWidth" 
+            mouseOverText="Sets the width of the pen. Pen width should be between 1 and 5.\nNOTE: This method is only for line-drawing commands. It does not affect any text commands."
+            type="2">
+            <calltips>
+                <calltip text="SetPenWidth(int penwidth)"/>
+            </calltips>
+        </intellisenseItem>
+    
+        <intellisenseItem
+            name="ShowLabel" 
+            mouseOverText="Reveals the hidden label specified by labelname."
+            type="2">
+            <calltips>
+                <calltip text="ShowLabel(string labelname)"/>
+            </calltips>
+        </intellisenseItem>
+    
+        <intellisenseItem
+            name="StartCloudPath" 
+            mouseOverText="Similar to StartPath, except that it draws the path with cloud-like curved segments (puffs)."
+            type="2">
+            <calltips>
+                <calltip text="StartCloudPath(float puffWidth, float puffHeight, float noise)"/>
+            </calltips>
+        </intellisenseItem>   
+        
+         <intellisenseItem
+            name="StartPath" 
+            mouseOverText="Starts the sequence of drawing commands that define a path."
+            type="2">
+            <calltips>
+                <calltip text="StartPath()"/>
+            </calltips>
+        </intellisenseItem>   
+        
+         <intellisenseItem
+            name="StrokePath" 
+            mouseOverText="Draws the outline of the previously defined path with the current pen."
+            type="2">
+            <calltips>
+                <calltip text="StrokePath()"/>
+            </calltips>
+        </intellisenseItem>
+
+        <intellisenseItem
+            name="DefSize" 
+            mouseOverText="Sets the default size of the diagram object."
+            type="2">
+            <calltips>
+                <calltip text="DefSize(int width, int height)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="SetFixedRegion" 
+            mouseOverText="Sets regions on the x-axis and y-axis that are drawn as absolute positions." 
+            type="2">
+            <calltips>
+                <calltip text="SetFixedRegion(int xStart, int yStart, int xEnd, int yEnd)"/>
+            </calltips>
+        </intellisenseItem>   
+        
+        <intellisenseItem
+            name="SetCompartmentName" 
+            mouseOverText="Sets the name of a Compartment" 
+            type="2">
+            <calltips>
+                <calltip text="SetCompartmentName(string compartmentName)"/>
+            </calltips>
+        </intellisenseItem>
+        
+        <intellisenseItem
+            name="AppendCompartmentText" 
+            mouseOverText="Appends text to a compartment" 
+            type="2">
+            <calltips>
+                <calltip text="AppendCompartmentText(string text)"/>
+            </calltips>
+        </intellisenseItem> 
+        
+        <intellisenseItem
+            name="DrawComposedDiagram" 
+            mouseOverText="Draws an elements composed diagram" 
+            type="2">
+            <calltips>
+                <calltip text="DrawComposedDiagram()"/>
+            </calltips>
+        </intellisenseItem> 
+        
+        <intellisenseItem
+            name="DrawParentShape" 
+            mouseOverText="Calls the shape script of the parent stereotype"
+            type="2">
+            <calltips>
+                <calltip text="DrawComposedDiagram()"/>
+            </calltips>
+        </intellisenseItem> 
+
+		<intellisenseItem
+            name="SetFontColor" 
+            mouseOverText="Sets the font color.\nThe desired color may be specified by defining RGB values or using a Color value returned by any of the color queries (eg GetUserFillColor()). This will only affect element text and text drawn using Print commands" 
+            type="2">
+            <calltips>
+                <calltip text="SetFontColor(int red, int green, int blue)"/>
+				<calltip text="SetFontColor(Color newColor)"/>
+            </calltips>
+        </intellisenseItem> 
+		
+         <intellisenseItem
+            name="GetDefaultFillColor" 
+            mouseOverText=""
+            type="2">
+            <calltips>
+                <calltip text="GetDefaultFillColor()"/>
+            </calltips>
+        </intellisenseItem>
+		
+		<intellisenseItem
+            name="GetStatusColor" 
+            mouseOverText=""
+            type="2">
+            <calltips>
+                <calltip text="GetStatusColor()"/>
+            </calltips>
+        </intellisenseItem> 
+		
+		<intellisenseItem
+            name="SetResize" 
+            mouseOverText=""
+            type="2">
+            <calltips>
+                <calltip text="SetResize(string resizeDirection)"/>
+            </calltips>
+        </intellisenseItem> 
+		
+		<intellisenseItem
+            name="SetMinSize" 
+            mouseOverText=""
+            type="2">
+            <calltips>
+                <calltip text="SetMinSize(int width, int height)"/>
+            </calltips>
+        </intellisenseItem> 
+        
+		<intellisenseItem
+            name="SetAttachmentMode" 
+            mouseOverText=""
+            type="2">
+            <calltips>
+                <calltip text="SetAttachmentMode(string mode)"/>
+            </calltips>
+        </intellisenseItem> 
+        
+    </intellisenseItems>       
+</intellisenseDB>
+
