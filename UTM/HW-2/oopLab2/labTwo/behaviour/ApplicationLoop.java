@@ -1,40 +1,34 @@
-package labTwo.behaviour;
+import labTwo.models.*
 
-
-import labTwo.models.Faculty;
-import labTwo.models.University;
-
-import java.util.ArrayList;
-import java.util.Objects;
 import java.util.Scanner;
 
-
 public class ApplicationLoop {
-    private Scanner scanner;
     private University university;
+    private Scanner scanner;
     private String command;
+    private GeneralOperations generalOperations;
+    private FacultyOperations facultyOperations;
 
     public ApplicationLoop() {
-        this.scanner = new Scanner(System.in);
         this.university = new University();
+        this.scanner = new Scanner(System.in);
         this.command = "";
+        this.generalOperations = new GeneralOperations(university, scanner);
+        this.facultyOperations = new FacultyOperations(university, scanner);
     }
 
     public void run() {
-        while (!this.command.equals("q") ) {
+        while (!this.command.equals("q")) {
             this.command = takeUserInput();
-
-            String[] commandsList = this.command.split("/");
-
-            switch (commandsList[0]) {
+            switch (this.command) {
                 case "f":
-                    handleFacultyCreate(commandsList);
+                    facultyOperationsMenu();
                     break;
-                case "pf":
-                    printFaculties();
+                case "g":
+                    generalOperationsMenu();
                     break;
                 case "q":
-                    System.out.println("Finished");
+                    System.out.println("Finish");
                     break;
                 default:
                     System.out.println("Invalid command");
@@ -43,40 +37,66 @@ public class ApplicationLoop {
         scanner.close();
     }
 
-    private String takeUserInput() {
+    private void generalOperationsMenu() {
+        System.out.println("General Operations:");
+        System.out.println("nf Add Faculty");
+        System.out.println("pf Print Faculties");
+        System.out.println("df Display Faculties by Field");
+        System.out.println("ff Find Faculty by Student Identifier");
+        System.out.println("Enter the operation: ");
+        String operation = scanner.nextLine();
 
-        System.out.print("write command> ");
-        return scanner.nextLine();
-    }
-
-    private void handleFacultyCreate(String[] commands) {
-        if(commands.length == 4) {
-            addFaculty(commands);
-        } else {
-            addFaculty();
+        switch (operation) {
+            case "nf":
+                generalOperations.addFaculty();
+                break;
+            case "pf":
+                generalOperations.printFaculties();
+                break;
+            case "df":
+                generalOperations.displayFacultiesByField();
+                break;
+            case "ff":
+                generalOperations.findFacultyByStudentIdentifier();
+                break;
+            default:
+                System.out.println("Invalid operation");
         }
     }
 
-    private void addFaculty() {
-        // add faculty
-        System.out.println("faculty name:");
-        String facultyName = scanner.nextLine();
-        System.out.println("faculty abbrev:");
-        String facultyAbbrev = scanner.nextLine();
-        System.out.println("faculty field:");
-        String facultyField = scanner.nextLine();
+    private void facultyOperationsMenu() {
+        System.out.println("Faculty Operations:");
+        System.out.println("ns Create and Assign Student to Faculty");
+        System.out.println("gs Graduate Student from Faculty");
+        System.out.println("ds Display Enrolled Students");
+        System.out.println("dg Display Graduates");
+        System.out.println("sb Check If Student Belongs");
+        System.out.println("Enter the operation: ");
+        String operation = scanner.nextLine();
 
-        Faculty faculty = new Faculty(facultyName, facultyAbbrev, facultyField);
-        this.university.addFaculty(faculty);
+        switch (operation) {
+            case "ns":
+                facultyOperations.createAndAssignStudentToFaculty();
+                break;
+            case "gs":
+                facultyOperations.graduateStudentFromFaculty();
+                break;
+            case "ds":
+                facultyOperations.displayEnrolledStudents();
+                break;
+            case "dg":
+                facultyOperations.displayGraduates();
+                break;
+            case "sb":
+                facultyOperations.checkIfStudentBelongs();
+                break;
+            default:
+                System.out.println("Invalid operation");
+        }
     }
 
-    private void addFaculty(String[] arguments) {
-
-        Faculty faculty = new Faculty(arguments[1], arguments[2], arguments[3]);
-        this.university.addFaculty(faculty);
-    }
-
-    private void printFaculties() {
-        System.out.println(university);
+    private String takeUserInput() {
+        System.out.println("Write command (g for general, f for faculty, q to quit): ");
+        return scanner.nextLine();
     }
 }

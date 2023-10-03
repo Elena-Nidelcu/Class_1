@@ -1,29 +1,49 @@
-package labTwo.models;
-
-import java.util.List;
+import java.util.ArrayList;
 
 public class Faculty {
     private String name;
-    private String abbreviation;
-//    private List<Student> students;
-    private String studyField;
+    private String abbrev;
+    private String field;
+    private List<Student> enrolledStudents;
 
-    enum Fields {
-        MECHANICAL_ENGINEERING,
-        SOFTWARE_ENGINEERING,
-        FOOD_TECHNOLOGY,
-        URBANISM_ARCHITECTURE,
-        VETERINARY_MEDICINE
+    public Faculty(String name, String abbrev, String field) {
+        this.name = name;
+        this.abbrev = abbrev;
+        this.field = field;
+        this.enrolledStudents = new ArrayList<>();
     }
 
-    public Faculty(String name, String abbreviation, String studyField) {
-        this.name = name;
-        this.abbreviation = abbreviation;
-        this.studyField = studyField;
+    public String getName() {
+        return name;
+    }
+
+    public String getAbbrev() {
+        return abbrev;
+    }
+
+    public String getField() {
+        return field;
+    }
+
+    public void enrollStudent(Student student) {
+        enrolledStudents.add(student);
+    }
+
+    public void graduateStudent(Student student) {
+        student.graduate();
+    }
+
+    public List<Student> getEnrolledStudents() {
+        return enrolledStudents;
     }
 
     @Override
     public String toString() {
-        return name + " - " + abbreviation + " - " + studyField;
+        return "Faculty{" +
+                "name='" + name + '\'' +
+                ", abbrev='" + abbrev + '\'' +
+                ", field='" + field + '\'' +
+                ", enrolledStudents=" + enrolledStudents +
+                '}';
     }
 }

@@ -1,11 +1,8 @@
 package labTwo;
 
-import labTwo.models.University;
-import labTwo.models.Faculty;
-import labTwo.models.Student;
-import labTwo.behaviour.ApplicationLoop;
+import labTwo.models.*;
+import labTwo.behaviour.*;
 
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {

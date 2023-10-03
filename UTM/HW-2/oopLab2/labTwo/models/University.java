@@ -1,34 +1,29 @@
-package labTwo.models;
-
-import labTwo.models.Faculty;
-
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import labTwo.behaviour.*;
 
 public class University {
 
-    private List<Faculty> faculties = new ArrayList<>();
+    private List<Faculty> faculties;
 
-    public void addFaculty(Faculty faculty) {
-        faculties.add(faculty);
+    public University(){
+        faculties = new ArrayList<>();
     }
 
-//    public University() {
-//        faculties = new ArrayList<>();
-//    }
+    public void addFaculty(Faculty faculty){
+        this.faculties.add(faculty);
+    }
 
-//    public void addFaculty(Faculty faculty) {
-//        this.faculties.add(faculty);
-//    }
+    public List<Faculty> getFaculties() {
+        return faculties;
+    }
 
     @Override
     public String toString() {
         StringBuilder text = new StringBuilder();
-        for (int i = 0; i < this.faculties.size(); i++) {
-            text.append(this.faculties.get(i) + "\n");
-        }
 
+        for (Faculty faculty : this.faculties) {
+            text.append(faculty).append("\n");
+        }
         return text.toString();
     }
 }
